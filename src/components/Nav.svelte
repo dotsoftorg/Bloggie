@@ -5,14 +5,12 @@
 }
 
 /*----- Menu -----*/
-@media screen and (min-width: 860px) {
-	.menu {
+.menu {
 	width:100%;
 	padding:10px 18px;
 	box-shadow:0px 1px 1px rgba(0,0,0,0.15);
 	border-radius:3px;
 	background:#303030;
-	}
 }
 
 .menu ul {
@@ -43,7 +41,6 @@
 
 /*----- Search -----*/
 .search-form {
-	float:right;
 	display:inline-block;
 }
 
@@ -69,11 +66,6 @@
 }
 
 /*----- Responsive -----*/
-@media screen and (max-width: 1150px) {
-	.wrap {
-		width:90%;
-	}
-}
 
 @media screen and (max-width: 970px) {
 	.search-form input {
@@ -127,7 +119,6 @@
 
 	.toggle-nav {
 		padding:20px;
-		float:left;
 		display:inline-block;
 		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
 		border-radius:3px;
@@ -138,7 +129,7 @@
 		transition:color linear 0.15s;
 	}
 
-	.toggle-nav:hover, .toggle-nav.active {
+	.toggle-nav:hover {
 		text-decoration:none;
 		color:#66a992;
 	}
@@ -157,10 +148,10 @@
 <nav class="menu">
 	<ul class="active">
 		<li class="current-item"><a href=".">Home</a></li>
-		<li><a href=".">My Work</a></li>
-		<li><a href=".">About Me</a></li>
-		<li><a href=".">Get in Touch</a></li>
-		<li><a href=".">Blog</a></li>
+		<li><a href=".">Explore</a></li>
+		<li><a href=".">Profile</a></li>
+		<li><a href=".">Buy License</a></li>
+		<li><a href=".">Settings</a></li>
 	</ul>
 
 	<a class="toggle-nav" href=".">&#9776;</a>
